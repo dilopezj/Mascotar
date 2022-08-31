@@ -84,10 +84,22 @@
 
         h2 {
             font-weight: 700;
-            font-size: 82px;
+            font-size: 43px;
             display: block;
             margin-bottom: 0;
-            background: -webkit-linear-gradient(#ff9696, #ffe89e);
+            background: -webkit-linear-gradient(#000000, #000000);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            
+            @media #{$breakpoint-xs} {
+                font-size: 42px;
+            }
+        }
+        h3 {
+            font-size: 43px;
+            display: block;
+            margin-bottom: 0;
+            background: -webkit-linear-gradient(#000000, #000000); 
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             
